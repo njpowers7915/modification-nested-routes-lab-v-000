@@ -2,7 +2,7 @@
 <%= form_for @song  do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %><br>
-  <%= f.hidden_field_tag 'song[artist_id]', @song.artist_id %>
+  <%= f.hidden_field 'song[artist_id]', @song.artist_id %>
   <br />
 
   <%= f.submit %>
