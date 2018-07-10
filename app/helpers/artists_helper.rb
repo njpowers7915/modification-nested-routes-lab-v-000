@@ -10,4 +10,4 @@ module ArtistsHelper
       hidden_field_tag 'post[artist_id]', song.artist_id
     end
   end
-end
+end 
